@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.opening {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lambdablack {
+    margin: 2rem;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.opening nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.opening nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo1 {
+    margin-bottom: 1.5rem;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +133,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +171,183 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes :nth-child(1) {
+    background: teal;
+}
+
+.boxes :nth-child(2) {
+    background: gold;
+}
+
+.boxes :nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes :nth-child(4) {
+    background: coral;
+}
+
+.boxes :nth-child(5) {
+    background: crimson;
+}
+
+.boxes :nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes :nth-child(7) {
+   background: darkorchid;
+}
+
+.boxes :nth-child(8) {
+    background: hotpink;
+}
+
+.boxes :nth-child(9) {
+    background: indigo;
+}
+
+.boxes :nth-child(10) {
+    background: dodgerblue;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.jumboabout {
+    margin-bottom: 1.5rem;
+}
+
+.intro {
+    border-bottom: dashed;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+.group1 {
+    display: flex;
+}
+
+.strategy {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border-bottom: dashed;
+    margin-bottom: 2rem;
+}
+
+.strategy h2 {
+    margin-top: 1rem;
+}
+
+.strategy p {
+    margin-bottom: 1rem;
+}
+
+.strategy a {
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.how {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border-bottom: dashed;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.how h2 {
+    margin-top: 1rem;
+}
+
+.how p {
+    margin-bottom: 1rem;
+}
+
+.how a {
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.group2 {
+    display: flex;
+}
+
+.places {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border-bottom: dashed;
+    margin-bottom: 2rem;
+}
+
+.places h2 {
+    margin-top: 1rem;
+}
+
+.places p {
+    margin-bottom: 1rem;
+}
+
+.places a {
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.collab {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    border-bottom: dashed;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.collab h2 {
+    margin-top: 1rem;
+}
+
+.collab p {
+    margin-bottom: 1rem;
+}
+
+.collab a {
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.closing {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
